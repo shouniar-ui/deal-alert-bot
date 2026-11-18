@@ -1,0 +1,45 @@
+# ===== Your deal channel settings =====
+# Edit this file right on GitHub (click the pencil icon). No coding needed.
+
+# Where deals come from. Add or remove lines; each must be an RSS feed link.
+feeds:
+  - url: https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1   # Slickdeals front page
+  - url: https://slickdeals.net/newsearch.php?mode=popdeals&searcharea=deals&searchin=first&rss=1    # Slickdeals popular
+
+# Your niche. A deal is posted only if its title contains at least one of these words.
+# Leave the list empty (include_keywords: []) to post every deal.
+# Example niches:
+#   Tech & gaming:  laptop, monitor, ssd, gpu, headphones, airpods, tv, ps5, xbox, switch
+#   Home & kitchen: air fryer, vacuum, dyson, ninja, instant pot, mattress, keurig
+#   Parents:        diapers, stroller, car seat, lego, toys, baby
+include_keywords:
+  - laptop
+  - monitor
+  - ssd
+  - gpu
+  - graphics card
+  - headphones
+  - earbuds
+  - airpods
+  - tv
+  - ps5
+  - xbox
+  - nintendo switch
+  - ipad
+  - macbook
+  - gaming
+
+# Skip deals whose titles contain any of these words.
+exclude_keywords:
+  - refurbished
+  - used
+
+# Skip deals that cost more than this (in dollars). Delete the line for no limit.
+max_price: 500
+
+# Most deals to post each time the bot runs (it runs every 15 minutes).
+max_posts_per_run: 5
+
+# Look of each post.
+emoji: "🔥"
+footer: "Some links may earn us a commission."
